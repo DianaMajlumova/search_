@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(97, 22, 144);
+  }
+  
+  .button-border {
+    margin: 10px;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    button {
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+      background:orangered;
+      border: none;
+      color: #000;
+      cursor: pointer;
+    }
+    
+    .btn_text {
+      position: absolute;
+      color: rgb(20, 2, 67);
+      text-align: center;
+      width: 101%;
+      font-family: "Monument Extended", sans-serif;
+      font-weight: lighter;
+      font-size: 15px;
+      margin-top: 7px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  }
+  
+  
+ 
